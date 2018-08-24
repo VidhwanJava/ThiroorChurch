@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "51053845550",
+    "firebase_url": "https://notification-channel.firebaseio.com",
+    "project_id": "notification-channel",
+    "storage_bucket": "notification-channel.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:51053845550:android:1ed67f7d00fbdf68",
+        "android_client_info": {
+          "package_name": "com.vidhwan.java.thiroorchurch"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "51053845550-pja2jv4ghmiegbsc460d9huorft8ri4f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.vidhwan.java.thiroorchurch",
+            "certificate_hash": "5b062aef1af307c9c6e57cb0aacaf8a3ea3b8754"
+          }
+        },
+        {
+          "client_id": "51053845550-lum09gehar9mf7mlidfgnhq0r12k0ipb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCVGmqZ-zGYpdwFkzaJgJKxDbBYifqAPNI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "51053845550-lum09gehar9mf7mlidfgnhq0r12k0ipb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
