@@ -11,6 +11,8 @@ import android.webkit.WebView;
 import android.webkit.WebViewClient;
 import android.widget.ImageView;
 import android.widget.Toast;
+import com.crashlytics.android.Crashlytics;
+import io.fabric.sdk.android.Fabric;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -18,11 +20,15 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        Fabric.with(this, new Crashlytics());
         setContentView(R.layout.activity_main);
         ImageView nonet = findViewById(R.id.nmg);
         WebView webView=findViewById(R.id.wv);
 
         webView.loadUrl("http://thiroorchurch.org");
+
+
+
 
 
         if(isOnline(getApplicationContext())) {
@@ -72,4 +78,8 @@ public class MainActivity extends AppCompatActivity {
             Toast.makeText(MainActivity.this,"God Bless You!",Toast.LENGTH_SHORT).show();
         }
     }
+
+
+
+
 }
